@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(78, 162, 128);
+    margin: 0px;
+}
+#board{
+    background-color: goldenrod;
+    height: 14cm;
+    width: 14cm;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#scorecard{
+    position: absolute;
+    margin: 10px;
+    top: 11px;
+    right: 110px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pause{
+    position: relative;   
+    margin: 10px;
+    top: 58px;
+    left: 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-left: 0px; */
+}
+.head{
+    background-color: red;
+    border: 1px solid black;
+    clip-path: polygon(20% 0%, 0% 20%, 0 51%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 100% 46%, 100% 20%, 80% 0%, 50% 30%);
+}
+.snake{
+    background-color: blue;
+    border-radius: 50%;
+}
+.food{
+    background-color: brown;
+    border-radius: 50%;
+}
+#high{
+    position: relative;   
+    margin: 10px;
+    /* margin-left: 0px; */
+    top: 52px;
+    left: 56px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#details{
+    margin-top: 30px;
+    position: absolute;
+    display: table;
+    height: 150px;
+    width: 300px;
+    right: 47px;
+    border: 1px solid black;
+}
